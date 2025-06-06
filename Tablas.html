@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Trabajo 3</title>
+       <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 2px solid rgb(14, 139, 24);
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #3cc22be8;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tablas</h1>
+    <h2>Tabla #1 </h2>
+    
+    <table>
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Edad</th>
+        </tr>
+        <tr>
+            <td>Juan</td>
+            <td>Pérez</td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <td>María</td>
+            <td>González</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>Carlos</td>
+            <td>Rodríguez</td>
+            <td>22</td>
+        </tr>
+    </table>
+   <h2>Tabla 2</h2> 
+<table> 
+    <tr> 
+        <th>Título</th> 
+        <th>Director</th> 
+        <th>Año</th> 
+        <th>Género</th> 
+        <th>Calificación</th> 
+    </tr> 
+    <tr> 
+        <td>El Padrino</td> 
+        <td>Francis Ford Coppola</td> 
+        <td>1972</td> 
+        <td>Drama/Crimen</td> 
+        <td>9.2/10</td> 
+    </tr> 
+    <tr> 
+        <td>Titanic</td> 
+        <td>James Cameron</td> 
+        <td>1997</td> 
+        <td>Romance/Drama</td> 
+        <td>7.9/10</td> 
+    </tr> 
+    <tr> 
+        <td>Interestelar</td> 
+        <td>Christopher Nolan</td> 
+        <td>2014</td> 
+        <td>Ciencia ficción</td> 
+        <td>8.6/10</td> 
+    </tr> 
+    <tr> 
+        <td>Parásitos</td> 
+        <td>Bong Joon-ho</td> 
+        <td>2019</td> 
+        <td>Drama/Thriller</td> 
+        <td>8.5/10</td> 
+    </tr> 
+</table>
+    <h2>Tabla #2</h2>
+   
+<table>
+    <tr>
+        <th>Nombre</th>
+        <th>Apellido</th>
+        <th>Edad</th>
+        <th>Profesión</th>
+        <th>País</th>
+        <th>Correo Electrónico</th>
+    </tr>
+    <tr>
+        <td>Ana</td>
+        <td>Martínez</td>
+        <td>28</td>
+        <td>Ingeniera de Software</td>
+        <td>España</td>
+        <td>ana.martinez@ejemplo.com</td>
+    </tr>
+    <tr>
+        <td>Luis</td>
+        <td>García</td>
+        <td>35</td>
+        <td>Médico</td>
+        <td>México</td>
+        <td>luis.garcia@ejemplo.com</td>
+    </tr>
+    <tr>
+        <td>Sofía</td>
+        <td>López</td>
+        <td>31</td>
+        <td>Arquitecta</td>
+        <td>Colombia</td>
+        <td>sofia.lopez@ejemplo.com</td>
+    </tr>
+    <tr>
+        <td>Miguel</td>
+        <td>Hernández</td>
+        <td>42</td>
+        <td>Profesor</td>
+        <td>Argentina</td>
+        <td>miguel.hernandez@ejemplo.com</td>
+    </tr>
+    <tr>
+        <td>Valentina</td>
+        <td>Torres</td>
+        <td>26</td>
+        <td>Diseñadora Gráfica</td>
+        <td>Chile</td>
+        <td>valentina.torres@ejemplo.com</td>
+    </tr>
+</table>
+   <h2>Tabla #3</h2>
+<table>
+    <tr>
+        <th>Hora</th>
+        <th>Lunes</th>
+        <th>Martes</th>
+        <th>Miércoles</th>
+        <th>Jueves</th>
+        <th>Viernes</th>
+    </tr>
+    <tr>
+        <td>8:00 - 9:30</td>
+        <td rowspan="2">Matemáticas</td>
+        <td>Historia</td>
+        <td>Ciencias</td>
+        <td>Literatura</td>
+        <td>Física</td>
+    </tr>
+    <tr>
+        <td>9:30 - 11:00</td>
+        <td>Inglés</td>
+        <td rowspan="2">Educación Física</td>
+        <td>Geografía</td>
+        <td>Química</td>
+    </tr>
+    <tr>
+        <td>11:00 - 12:30</td>
+        <td>Informática</td>
+        <td>Arte</td>
+        <td>Música</td>
+        <td>Biología</td>
+    </tr>
+    <tr>
+        <td>12:30 - 14:00</td>
+        <td colspan="5" style="text-align: center;">ALMUERZO</td>
+    </tr>
+    <tr>
+        <td>14:00 - 15:30</td>
+        <td>Filosofía</td>
+        <td colspan="2">Taller de Programación</td>
+        <td>Estadística</td>
+        <td rowspan="2">Proyecto Final</td>
+    </tr>
+    <tr>
+        <td>15:30 - 17:00</td>
+        <td>Tutoría</td>
+        <td>Economía</td>
+        <td>Debate</td>
+        <td>Laboratorio</td>
+    </tr>
+</table>
+    <h2>Tabla #4</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Características</th>
+            <th>Producto A</th>
+            <th>Producto B</th>
+            <th>Producto C</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Precio</td>
+            <td>$99.99</td>
+            <td>$149.99</td>
+            <td>$199.99</td>
+        </tr>
+        <tr>
+            <td>Calidad</td>
+            <td>★★★☆☆</td>
+            <td>★★★★☆</td>
+            <td>★★★★★</td>
+        </tr>
+        <tr>
+            <td>Duración de batería</td>
+            <td>6 horas</td>
+            <td>10 horas</td>
+            <td>15 horas</td>
+        </tr>
+        <tr>
+            <td>Memoria</td>
+            <td>64GB</td>
+            <td>128GB</td>
+            <td>256GB</td>
+        </tr>
+        <tr>
+            <td>Garantía</td>
+            <td>1 año</td>
+            <td>2 años</td>
+            <td>3 años</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>Valoración general</td>
+            <td>Bueno</td>
+            <td>Muy bueno</td>
+            <td>Excelente</td>
+        </tr>
+    </tfoot>
+</table>
+<h2>Tabla #5</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>Tipo</th>
+            <th>Nombre/Modelo</th>
+            <th>Capacidad</th>
+            <th>Velocidad de Lectura</th>
+            <th>Velocidad de Escritura</th>
+            <th>Interfaz</th>
+            <th>Uso Principal</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Disco Duro (HDD)</td>
+            <td>Seagate Barracuda</td>
+            <td>2TB</td>
+            <td>190 MB/s</td>
+            <td>150 MB/s</td>
+            <td>SATA III</td>
+            <td>Almacenamiento masivo, backups</td>
+        </tr>
+        <tr>
+            <td>Unidad de Estado Sólido (SSD)</td>
+            <td>Samsung 970 EVO Plus</td>
+            <td>1TB</td>
+            <td>3,500 MB/s</td>
+            <td>3,300 MB/s</td>
+            <td>NVMe M.2</td>
+            <td>Sistema operativo, aplicaciones, juegos</td>
+        </tr>
+        <tr>
+            <td>Memoria USB</td>
+            <td>SanDisk Ultra</td>
+            <td>64GB</td>
+            <td>130 MB/s</td>
+            <td>60 MB/s</td>
+            <td>USB 3.0</td>
+            <td>Transferencia de archivos, portabilidad</td>
+        </tr>
+        <tr>
+            <td>Tarjeta SD</td>
+            <td>Kingston Canvas Select Plus</td>
+            <td>128GB</td>
+            <td>100 MB/s</td>
+            <td>85 MB/s</td>
+            <td>UHS-I</td>
+            <td>Cámaras, smartphones, dispositivos portátiles</td>
+        </tr>
+        <tr>
+            <td>Almacenamiento en la Nube</td>
+            <td>Google Drive</td>
+            <td>15GB (gratuito)</td>
+            <td>Depende de la conexión</td>
+            <td>Depende de la conexión</td>
+            <td>Internet</td>
+            <td>Colaboración, acceso remoto, respaldo</td>
+        </tr>
+        <tr>
+            <td>Disco Duro Externo</td>
+            <td>WD My Passport</td>
+            <td>4TB</td>
+            <td>120 MB/s</td>
+            <td>120 MB/s</td>
+            <td>USB 3.0</td>
+            <td>Backups, almacenamiento portátil</td>
+        </tr>
+        <tr>
+            <td>NAS (Network Attached Storage)</td>
+            <td>Synology DiskStation</td>
+            <td>Hasta 108TB (depende de discos)</td>
+            <td>225 MB/s</td>
+            <td>225 MB/s</td>
+            <td>Ethernet/Wi-Fi</td>
+            <td>Almacenamiento en red, multimedia, backups</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="7" style="text-align: center;">Los valores de velocidad son aproximados y pueden variar según el modelo específico y las condiciones de uso</td>
+        </tr>
+    </tfoot>
+</table>
+<h2>Tabla #6</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Luchador</th>
+            <th>Nombre Real</th>
+            <th>Campeonatos</th>
+            <th>Movimiento Final</th>
+            <th>Años Activo</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>The Rock</td>
+            <td>Dwayne Johnson</td>
+            <td>10 veces Campeón Mundial</td>
+            <td>Rock Bottom, People's Elbow</td>
+            <td>1996-2019</td>
+        </tr>
+        <tr>
+            <td>John Cena</td>
+            <td>John Felix Anthony Cena</td>
+            <td>16 veces Campeón Mundial</td>
+            <td>Attitude Adjustment, STF</td>
+            <td>2001-Presente</td>
+        </tr>
+        <tr>
+            <td>Undertaker</td>
+            <td>Mark William Calaway</td>
+            <td>7 veces Campeón Mundial</td>
+            <td>Tombstone Piledriver, Last Ride</td>
+            <td>1990-2020</td>
+        </tr>
+        <tr>
+            <td>Roman Reigns</td>
+            <td>Leati Joseph Anoa'i</td>
+            <td>6 veces Campeón Mundial</td>
+            <td>Spear, Superman Punch</td>
+            <td>2010-Presente</td>
+        </tr>
+        <tr>
+            <td>Becky Lynch</td>
+            <td>Rebecca Quin</td>
+            <td>6 veces Campeona</td>
+            <td>Disarmer, Manhandle Slam</td>
+            <td>2013-Presente</td>
+        </tr>
+    </tbody>
+</table>
+<h2>Tabla #7</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Tipo de Arma</th>
+            <th>Nombre</th>
+            <th>País de Origen</th>
+            <th>Calibre/Características</th>
+            <th>Año de Creación</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Pistola</td>
+            <td>Glock 17</td>
+            <td>Austria</td>
+            <td>9mm Parabellum</td>
+            <td>1982</td>
+        </tr>
+        <tr>
+            <td>Rifle de Asalto</td>
+            <td>AK-47</td>
+            <td>Unión Soviética</td>
+            <td>7.62×39mm</td>
+            <td>1947</td>
+        </tr>
+        <tr>
+            <td>Escopeta</td>
+            <td>Remington 870</td>
+            <td>Estados Unidos</td>
+            <td>12 Gauge</td>
+            <td>1950</td>
+        </tr>
+        <tr>
+            <td>Francotirador</td>
+            <td>Barrett M82</td>
+            <td>Estados Unidos</td>
+            <td>.50 BMG</td>
+            <td>1982</td>
+        </tr>
+        <tr>
+            <td>Arma Blanca</td>
+            <td>Katana</td>
+            <td>Japón</td>
+            <td>Acero al carbono, hoja curva</td>
+            <td>Siglo XIV</td>
+        </tr>
+    </tbody>
+</table
+><h2>Tabla #8</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Estilo de Lucha</th>
+            <th>Origen</th>
+            <th>Características Principales</th>
+            <th>Técnicas Destacadas</th>
+            <th>Practicantes Famosos</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Boxeo</td>
+            <td>Inglaterra (forma moderna)</td>
+            <td>Combate con puños, reglas Marqués de Queensberry</td>
+            <td>Jab, Directo, Gancho, Uppercut</td>
+            <td>Muhammad Ali, Mike Tyson, Floyd Mayweather</td>
+        </tr>
+        <tr>
+            <td>Jiu-Jitsu Brasileño</td>
+            <td>Brasil</td>
+            <td>Lucha en suelo, sumisiones y estrangulaciones</td>
+            <td>Armbar, Triángulo, Mata León</td>
+            <td>Familia Gracie, Roger Gracie, Gordon Ryan</td>
+        </tr>
+        <tr>
+            <td>Muay Thai</td>
+            <td>Tailandia</td>
+            <td>Arte marcial de los 8 miembros (puños, codos, rodillas, piernas)</td>
+            <td>Patada circular, Clinch, Codazos, Rodillazos</td>
+            <td>Buakaw Banchamek, Saenchai, Rodtang Jitmuangnon</td>
+        </tr>
+        <tr>
+            <td>Lucha Libre</td>
+            <td>Grecia Antigua (forma moderna)</td>
+            <td>Derribar al oponente y controlarlo en el suelo</td>
+            <td>Single leg, Double leg, Suplex</td>
+            <td>Jordan Burroughs, Aleksandr Karelin, Kyle Snyder</td>
+        </tr>
+        <tr>
+            <td>Karate</td>
+            <td>Okinawa, Japón</td>
+            <td>Golpes de mano abierta y cerrada, patadas, bloqueos</td>
+            <td>Gyaku-zuki, Mae-geri, Mawashi-geri</td>
+            <td>Lyoto Machida, Chuck Norris, Gichin Funakoshi</td>
+        </tr>
+    </tbody>
+</table>
+<h2>Tabla #9</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Lenguaje</th>
+            <th>Año de Creación</th>
+            <th>Creador/Empresa</th>
+            <th>Paradigma</th>
+            <th>Usos Principales</th>
+            <th>Popularidad </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Python</td>
+            <td>1991</td>
+            <td>Guido van Rossum</td>
+            <td>Multiparadigma</td>
+            <td>IA, Ciencia de Datos, Web, Automatización</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>JavaScript</td>
+            <td>1995</td>
+            <td>Brendan Eich (Netscape)</td>
+            <td>Multiparadigma</td>
+            <td>Desarrollo Web, Frontend, Backend (Node.js)</td>
+            <td>7</td>
+        </tr>
+        <tr>
+            <td>Java</td>
+            <td>1995</td>
+            <td>James Gosling (Sun Microsystems)</td>
+            <td>Orientado a Objetos</td>
+            <td>Aplicaciones Empresariales, Android, Web</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>C++</td>
+            <td>1985</td>
+            <td>Bjarne Stroustrup</td>
+            <td>Multiparadigma</td>
+            <td>Sistemas, Videojuegos, Aplicaciones de Alto Rendimiento</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>C#</td>
+            <td>2000</td>
+            <td>Microsoft</td>
+            <td>Multiparadigma</td>
+            <td>Aplicaciones Windows, Videojuegos (Unity), Web (.NET)</td>
+            <td>5</td>
+        </tr>
+    </tbody>
+</table>
+          <h2>tabla #10</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Fabricante</th>
+            <th>Consola</th>
+            <th>Año de Lanzamiento</th>
+            <th>Especificaciones</th>
+            <th>Juegos Exclusivos Destacados</th>
+            <th>Ventas Globales</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="3">Microsoft</td>
+            <td>Xbox One</td>
+            <td>2013</td>
+            <td>CPU AMD 8 núcleos, 8GB RAM, GPU 1.31 TFLOPS</td>
+            <td>Halo 5, Forza Horizon 4, Sea of Thieves</td>
+            <td>~51 millones</td>
+        </tr>
+        <tr>
+            <td>Xbox Series X</td>
+            <td>2020</td>
+            <td>CPU AMD Zen 2 8 núcleos, 16GB RAM, GPU 12 TFLOPS</td>
+            <td>Halo Infinite, Forza Horizon 5, Starfield</td>
+            <td>~20 millones</td>
+        </tr>
+        <tr>
+            <td>Xbox Series S</td>
+            <td>2020</td>
+            <td>CPU AMD Zen 2 8 núcleos, 10GB RAM, GPU 4 TFLOPS</td>
+            <td>Mismos que Series X (menor resolución)</td>
+            <td>Incluido con Series X</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Sony</td>
+            <td>PlayStation 4</td>
+            <td>2013</td>
+            <td>CPU AMD 8 núcleos, 8GB RAM, GPU 1.84 TFLOPS</td>
+            <td>God of War, Spider-Man, Uncharted 4, Bloodborne</td>
+            <td>~117 millones</td>
+        </tr>
+        <tr>
+            <td>PlayStation 5</td>
+            <td>2020</td>
+            <td>CPU AMD Zen 2 8 núcleos, 16GB RAM, GPU 10.28 TFLOPS</td>
+            <td>Demon's Souls, Ratchet & Clank: Rift Apart, Horizon Forbidden West</td>
+            <td>~40 millones</td>
+        </tr>
+        <tr>
+            <td>PlayStation 5 Digital</td>
+            <td>2020</td>
+            <td>Igual que PS5 (sin lector de discos)</td>
+            <td>Mismos que PS5</td>
+            <td>Incluido con PS5</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Nintendo</td>
+            <td>Nintendo Switch</td>
+            <td>2017</td>
+            <td>CPU/GPU NVIDIA Tegra, 4GB RAM, Híbrida (portátil/sobremesa)</td>
+            <td>The Legend of Zelda: BOTW, Super Mario Odyssey, Animal Crossing</td>
+            <td>~129 millones</td>
+        </tr>
+        <tr>
+            <td>Nintendo Switch OLED</td>
+            <td>2021</td>
+            <td>Igual que Switch (pantalla OLED mejorada)</td>
+            <td>Mismos que Switch</td>
+            <td>Incluido con Switch</td>
+        </tr>
+    </tbody>
+</table>  
+</body>
+</html>
